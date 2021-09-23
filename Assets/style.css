@@ -45,6 +45,10 @@ nav h2 {
     margin-top: 15px;
 }
 
+nav ul {
+    list-style: none;
+}
+
 /* setting hover property for nav bar page location titles */
 nav a:hover {
     color: var(--custom2);
