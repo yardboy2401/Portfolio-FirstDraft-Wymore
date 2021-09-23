@@ -1,0 +1,177 @@
+/* setting blue and white colors as variables */
+:root {
+    --custom1: #13293d;
+    --custom2: white;
+}
+
+/* setting overall body font size and display properties */
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* setting header and nav bar properties */
+header {
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: var(--custom1);
+    color: var(--custom2);
+}
+
+h1 {
+  font-size: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: sandybrown;
+}
+
+nav a {
+    padding: 14px 30px;
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav h2 {
+    display: flex;
+    margin-top: 15px;
+}
+
+/* setting hover property for nav bar page location titles */
+nav a:hover {
+    color: var(--custom2);
+  }
+
+/* setting overall main display properties */
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* setting about me section and statement display properties */
+section {
+    position: relative;
+    display: flex;
+}
+
+section h3 {
+    position: absolute;
+    display: flex;
+    margin-top: 90px;
+    font-size: 28px;
+    font-weight: bolder;
+    padding: 8px 16px!important;
+    background-color: var(--custom1);
+    color: var(--custom2);
+}
+
+section p {
+    position: absolute;
+    display: flex;
+    margin-top: 90px;
+    margin-left: 175px;
+    font-size: 18px;
+    line-height: 2;
+    font-weight:bolder;
+}
+
+/* setting project links properties */
+.projects {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
+    margin-left: 165px;
+    margin-right: 50px;
+}
+
+.projects h2 {
+    position: absolute;
+    margin-left: -165px;
+    margin-top: 180px;
+    font-size: 28px;
+    font-weight: bolder;
+    padding: 8px 16px!important;
+    background-color: var(--custom1);
+    color: var(--custom2);
+}
+
+.project1 h3,
+    .project2 h3 {
+    position: absolute;
+    bottom: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 8px 16px!important;
+    background-color: gray;
+    color: var(--custom2);
+}
+
+/* setting image properties for the page */
+img[src*='ocean'] {
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 0.6;
+    margin-left: 165px;
+}
+
+img[src*='mthood'] {
+    display: flex;
+    margin-top: 0px;
+}
+
+/* setting footer properties to display contact links properly on all screen sizes */
+.table {
+  display: table;
+  margin: 0 auto;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.table li {
+  display: inline-flex;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+footer h2 {
+    position: relative;
+    display: flex;
+    font-size: 28px;
+    font-weight: bolder;
+    padding: 8px 16px!important;
+    background-color: var(--custom1);
+    color: var(--custom2);
+    margin-top: 20px;
+  }
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start ;
+}
+
+/* setting media screen selector to display properly on tablets and phones */
+@media screen and (max-width: 900px) {
+    section p {
+        line-height: 1;
+        font-size: 14px;
+    }
+    img[src*='picofme'] {
+        width: 300px;
+        height: 300px;
+    }
+}
+}
