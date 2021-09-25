@@ -42,6 +42,10 @@ nav a {
 nav h2 {
     display: flex;
     margin-top: 15px;
+<<<<<<< HEAD
+=======
+/*     align-items: center; */
+>>>>>>> 6e9835490924ca9c988af8f38d43cc76d0165d70
 }
 
 nav ul {
