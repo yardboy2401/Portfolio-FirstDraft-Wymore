@@ -42,6 +42,7 @@ nav a {
 nav h2 {
     display: flex;
     margin-top: 15px;
+    align-items: center;
 }
 
 nav ul {
@@ -127,7 +128,6 @@ img[src*='ocean'] {
     justify-content: space-evenly;
     opacity: 0.6;
     margin-left: 165px;
-    /* border: solid gray 3px; */
 }
 
 img[src*='mthood'] {
