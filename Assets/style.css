@@ -37,7 +37,6 @@ nav a {
     text-decoration: none;
     color: darkblue;
     font-weight: bold;
-    text-decoration: none;
 }
 
 nav h2 {
@@ -128,17 +127,23 @@ img[src*='ocean'] {
     justify-content: space-evenly;
     opacity: 0.6;
     margin-left: 165px;
+    /* border: solid gray 3px; */
 }
 
 img[src*='mthood'] {
     display: flex;
     margin-top: 0px;
+    border: solid gray 3px;
+}
+
+img[src*='picofme'] {
+    border: solid gray 3px;
 }
 
 /* setting footer properties to display contact links properly on all screen sizes */
 .table {
   display: table;
-  margin: 0 auto;
+  margin: auto;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
   font-size: 20px;
@@ -146,13 +151,15 @@ img[src*='mthood'] {
 
 .table li {
   display: inline-flex;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 footer h2 {
     position: relative;
     display: flex;
+    align-items: center;
     font-size: 28px;
     font-weight: bolder;
     padding: 8px 16px!important;
