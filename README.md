@@ -1,4 +1,4 @@
-# 02 Advanced CSS: Portfolio
+# Advanced CSS: Portfolio-Wymore
 
 ## Your Task
 
